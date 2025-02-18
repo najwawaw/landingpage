@@ -1,0 +1,190 @@
+<!DOCTYPE html> 
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Hijab Rabbani - Cantik, Anggun & Syar'i ✨</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe4e1;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #ff69b4;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo-container img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .navbar .logo-container h2 {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #d1478c;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: white;
+            border-radius: 20px;
+            padding: 5px 10px;
+        }
+        .search-bar input {
+            border: none;
+            outline: none;
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 20px;
+        }
+        .search-bar button {
+            background: #ff69b4;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            justify-content: center;
+        }
+        .product {
+            background: #fff;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .discount {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: red;
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            color: #fff;
+            background: #ff69b4;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #d1478c;
+        }
+        .whatsapp {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="images__1_-removebg-preview (2).png" alt="Logo Rabbani">
+            <h2>RabbaniOfficial</h2>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Cari produk...">
+            <button>Cari</button>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#products">Produk</a>
+            <a href="#contact">Kontak</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>🌸 Hijab Rabbani - Tampil Cantik & Syar'i 🌸</h1>
+        <div class="products" id="products">
+            <div class="product">
+                <span class="discount">Diskon 10%</span>
+                <img src="Kerudung Instan Anak Bani Batuta Krukid Kianan.jpg" alt="Hijab Rabbani 1">
+                <h2>Hijab Rabbani Classic</h2>
+                <p>Harga: Rp 157.000</p>
+                <a href="https://shopee.co.id" class="btn" target="_blank">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <span class="discount">Diskon 15%</span>
+                <img src="Kerudung Instan Canovya Exclusive.jpg" alt="Hijab Rabbani 2">
+                <h2>Hijab Rabbani Pashmina</h2>
+                <p>Harga: Rp 192.000</p>
+                <a href="https://shopee.co.id" class="btn" target="_blank">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <span class="discount">Diskon 20%</span>
+                <img src="Kerudung Instan Ginnala Exclusive.jpg" alt="Hijab Rabbani 3">
+                <h2>Hijab Rabbani Instan</h2>
+                <p>Harga: Rp 190.000</p>
+                <a href="https://shopee.co.id" class="btn" target="_blank">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <span class="discount">Diskon 10%</span>
+                <img src="Kerudung Segi Empat Tetra Atari.jpg" alt="Hijab Rabbani 4">
+                <h2>Hijab Rabbani Segi Empat</h2>
+                <p>Harga: Rp 295.000</p>
+                <a href="https://shopee.co.id" class="btn" target="_blank">Beli Sekarang</a>
+            </div>
+        </div>
+        <div class="whatsapp" id="contact">
+            <p>Butuh bantuan? Hubungi kami di WhatsApp:</p>
+            <a href="https://wa.me/6281234567890" class="btn" target="_blank">Chat WhatsApp</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
